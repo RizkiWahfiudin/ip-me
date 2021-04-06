@@ -1,4 +1,4 @@
-$.get("http://ipinfo.io", function (result) {
+$.get("https://ipinfo.io", function (result) {
 	if(result) {
 	    $("#ip").html("IP : " + result.ip);
 	    $("#city").html("City : " + result.city);
